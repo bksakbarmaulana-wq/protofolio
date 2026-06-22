@@ -1,5 +1,3 @@
-*.log
-.DS_Store
 .env
 .env.backup
 .env.production
@@ -13,16 +11,15 @@
 /.vscode
 /.zed
 /auth.json
-/node_modules
-/public/build
-/public/fonts-manifest.dev.json
 /public/hot
-/public/storage
 /storage/*.key
 /storage/pail
-/vendor
 _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
-vendor/\nnode_modules/\n.env\n.env.backup\npublic/build/\nstorage/logs/\nstorage/framework/cache/\nstorage/framework/sessions/\nstorage/framework/views/\ndatabase/database.sqlite\n.phpunit.result.cache\n
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+.phpunit.result.cache
